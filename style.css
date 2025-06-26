@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+}
+
+.hidden-images {
+  display: none; /* oculta as imagens da tela, mas ainda são carregadas */
+}
